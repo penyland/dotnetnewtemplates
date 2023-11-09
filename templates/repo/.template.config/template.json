@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Peter Nylander",
+  "classifications": [
+    "Repo"
+  ],
+  "identity": "penyland-repo",
+  "name": "Repo folder structure template",
+  "defaultName": "repo",
+  "description": "Creates a repo folder structure",
+  "shortName": "repo",
+  "sourceName": "REPO",
+  "preferNameDirectory": false,
+  "sources": [
+    {
+      "source": "./",
+      "target": "./",
+      "exclude": [
+        "Properties/**/*",
+        "**/[Bb]in/**",
+        "**/[Oo]bj/**",
+        ".template.config/**/*",
+        "**/*.filelist",
+        "**/*.user",
+        "**/*.lock.json",
+        ".vs/**"
+      ]
+    }
+  ],
+  "symbols": {},
+  "forms": {},
+  "primaryOutputs": [
+    {
+      "path": "./",
+      "sourceId": "REPO",
+      "description": "Repo folder structure"
+    }
+  ],
+  "postActions": []
+}
