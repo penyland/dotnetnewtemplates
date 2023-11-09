@@ -24,11 +24,15 @@
         "**/*.user",
         "**/*.lock.json",
         ".vs/**"
-      ]
+      ],
+      "rename": {
+        "git.ignore": ".gitignore"
+      }
     }
   ],
   "symbols": {},
   "forms": {},
+  "placeholderFilename": "-.-",
   "primaryOutputs": [
     {
       "path": "./",
