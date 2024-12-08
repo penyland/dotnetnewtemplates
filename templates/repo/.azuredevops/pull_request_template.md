@@ -7,8 +7,8 @@
 <!-- If anything comes to mind, describe the biggest risk in this PR -->
 
 ### Checklist
-- [ ] Unit tests have been updated/written where beneficial
+- [ ] Unit tests have been updated/written
 - [ ] Solution have been built and ran locally
-- [ ] If changed configuration/appsettings? Update appconfig.
-- [ ] Changed resources? Updated relevant bicep files?
+- [ ] Have you changed appsettings? Update appconfig if needed.
+- [ ] Changed resources? Updated relevant bicep files
 - [ ] Documentation has been added and/or updated if necessary
